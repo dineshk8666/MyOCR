@@ -1,0 +1,12 @@
+##On ubuntu Install:
+apt-get install python-opencv    
+apt-get install tesseract-ocr libtesseract-dev libleptonica-dev  
+apt-get install PIL    
+apt-get install python-pil  
+
+"""
+Error: libdc1394 error: Failed to initialize libdc1394
+>> Fix: sudo ln /dev/null /dev/raw1394
+
+https://stackoverflow.com/questions/12689304/ctypes-error-libdc1394-error-failed-to-initialize-libdc1394
+
